@@ -10,7 +10,7 @@ const port = 3000;
 app.use(express.static('static'));
 
 app.get('/', (req, res) => {
-  res.send("Demo Route");
+  res.send("api testing");
 });
 
 app.get('/cart-total', (req, res) => {
